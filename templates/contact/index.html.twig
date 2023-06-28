@@ -1,0 +1,98 @@
+{% extends 'base.html.twig' %}
+
+{% block body_id 'contact_index' %}
+
+{% block body %}
+<div class="card p-5">
+        <div class="row">
+            <div class="col-sm-6"> 
+                    <h1 class="font-weight-bold">Contactez nous !</h1>
+                    
+                    <small class="form-text text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</small>
+                    
+                    <div class="cardContact" style="">
+
+                        <div class="">
+                            <div class="containerText">
+                                <p><span class="validation">&#x2713;</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ullamcorper arcu id ante maximus vehicula. Aliquam at dui quis sem elementum lacinia pretium a nunc.</p>
+                            </div>
+                        </div>
+
+                        <div class="containerSeparation">
+                            <hr class="separationCard">
+                        </div>
+
+                        <div class="">
+                            <div class="containerText">
+                                <p><span class="validation">&#x2713;</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ullamcorper arcu id ante maximus vehicula. Aliquam at dui quis sem elementum lacinia pretium a nunc.</p>
+                            </div>
+                        </div>
+                        
+                         <div class="containerSeparation">
+                            <hr class="separationCard">
+                        </div>
+
+                        <div class="">
+                            <div class="containerText">
+                                <p><span class="validation">&#x2713;</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ullamcorper arcu id ante maximus vehicula. Aliquam at dui quis sem elementum lacinia pretium a nunc.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <small class="form-text text-muted">Lorem ipssuuum <a href="#" class="link-primary">dima</a></small>
+
+
+            </div>
+
+            <div class="col-sm-6"> 
+                <form>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                    <label>Prénom *</label>
+                    <input type="email" class="form-control">
+                    </div>
+                    <div class="form-group col-md-6">
+                    <label>Nom *</label>
+                    <input type="password" class="form-control">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label>Email *</label>
+                    <input type="text" class="form-control">
+                </div>
+
+                <div class="form-group">
+                    <label>Société</label>
+                    <input type="text" class="form-control">
+                </div>
+
+                <div class="form-group">
+                    <label>Taille de votre société</label>
+                    <select class="form-control">
+                        <option value="" selected disabled hidden>Choisissez ...</option>
+                        <option value="">Micro entreprise</option>
+                        <option value="">Petite et moyenne entreprise</option>
+                        <option value="">Entreprise de taille intermédiaire</option>
+                        <option value="">Grande entreprise</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label>Message *</label>
+                    <textarea type="text" style="max-height : 180px;" class="form-control"></textarea>
+                </div>  
+
+                <div class="form-group"> 
+                    <small class="form-text text-muted">Les champs marqués d'un astérisque (*) sont obligatoires.</small>
+                </div>
+                
+                <div class="form-group">
+                    <button class="btn btn-primary">Envoyer</button>
+                </div>
+                </form>
+            </div>
+        </div>
+        
+        
+{% endblock %}
